@@ -25,7 +25,7 @@ The Atari-Head dataset can be downloaded here: https://zenodo.org/records/109667
 
 All of the environments are made available as gym environments.
 
-**Atari:** Atari environments follow the naming convention `$ROM_$HORIZON_fs$FRAMESKIP-v0`. For instance, River Raid with a horizon of 50 and sticky action of 30\% can be instantiated via `gym.make("riverraid_50_sa30-v0")`.
+**Atari:** Atari environments follow the naming convention `$ROM_$HORIZON_fs$FRAMESKIP-v0`. For instance, River Raid with a horizon of 50 and sticky action of 20\% can be instantiated via `gym.make("riverraid_50_sa30-v0")`.
 
 **SMARTS:** Smarts environments follow the naming convention `$GAME_$DIFFICULTY_l$LEVEL_$HORIZON_fs$FRAMESKIP-v0`. 
 
