@@ -3,6 +3,10 @@
 This repository contains the code for the paper: Distributional Reinforcement Learning with Humans in the Loop. Follow the instructions here to install and run the code. 
 
 
+Note: This code-base is under construction. Significant updates can be expected shortly. 
+
+
+
 ## Installation
 
 1. Install [Python](https://www.python.org/) 3.8, 3.9, or 3.10. 
