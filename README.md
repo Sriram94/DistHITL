@@ -25,7 +25,7 @@ The Atari-Head dataset can be downloaded here: https://zenodo.org/records/109667
 
 All of the environments are made available as gym environments.
 
-**Atari:** Atari environments follow the naming convention `$ROM_$HORIZON_fs$FRAMESKIP-v0`. For instance, Pong with a horizon of 50 and frameskip of 30 can be instantiated via `gym.make("pong_50_fs30-v0")`.
+**Atari:** Atari environments follow the naming convention `$ROM_$HORIZON_fs$FRAMESKIP-v0`. For instance, River Raid with a horizon of 50 and sticky action of 30\% can be instantiated via `gym.make("riverraid_50_sa30-v0")`.
 
 **SMARTS:** Smarts environments follow the naming convention `$GAME_$DIFFICULTY_l$LEVEL_$HORIZON_fs$FRAMESKIP-v0`. 
 
@@ -37,6 +37,6 @@ All of the environments are made available as gym environments.
 **DQN:** To train DQN on the environments in Atari-Head, run:
 
     python -m effective_horizon.sb3.train with algo=DQN \
-    env_name="pong_50_fs30-v0" \
+    env_name="riverraid_50_sa30-v0" \
     gamma=1 seed=0 algo_args.exploration_fraction=0.1 algo_args.learning_starts=0
 
