@@ -17,9 +17,9 @@ This repository contains the code for the paper: Distributional Reinforcement Le
         pip install -e .[sb3]
 
 
-## Data
+## Data and Data Installation 
 
-The Atari-Head dataset can be downloaded here: https://zenodo.org/records/10966777. The download contains a [README](./data/bridge_dataset/README.md) with more information about the format of the data.
+The Atari-Head dataset can be downloaded here: https://zenodo.org/records/10966777. The download contains a [README](./data/bridge_dataset/README.md) with more information about the format of the data. Follow all the installation instructions for Atari-Head (through the usage of Docker) in the [free-lunch-saliency](https://github.com/dniku/free-lunch-saliency) to install the requirements for using Atari-Head for training. 
 
 ### Environments
 
